@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: #719da0;
+    background-image: url("../images/cat_purr_256.png");
+    background-size: 220px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font: 16px/1.5 Arial, sans-serif;
+    color: white;
+}
+main {
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 35px;
+    background-color: rgba(35, 57, 62, 0.8);
+}
+p { margin: 0 0 20px; }
+@media (max-width: 600px) {
+    main { width: 75%; padding: 20px; }
+}
